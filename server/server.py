@@ -4,7 +4,7 @@ import asyncio
 
 app = Flask(settings.getConfigValue('default', 'name'))
 
-
+# todo actually work on the REST interface
 @app.route('/')
 def hello_world():
   return 'Hello World!'
