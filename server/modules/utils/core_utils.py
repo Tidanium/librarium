@@ -15,14 +15,14 @@ async def createStorageDir(dirName):
     os.mkdir(baseStorageDirName)
   if dirName is list:
     dirName='/'.join(dirName)
-  os.mkdir(str(baseStorageDirName+dirName).replace('//','/'))
+  os.mkdir(str(baseStorageDirName+dirName).replace('//','/')) # just in case
 
 class security:
   def __init__(self):
     self.secretType={"user":0,"connection":1}
   
   async def credCheck(self, cred:dict):
-    cred['user'] #todo motor check for user to grab user dictionary and work off that
+    cred['user'] # todo motor check for user to grab user dictionary and work off that
   
   async def credCreate(self, cred:dict):
     pass # todo motor check if username or email exists already. different action based on which

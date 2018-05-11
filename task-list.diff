@@ -1,0 +1,9 @@
++++ Tasks to do
+-   Complete GUI
+-   Create repository-style storage system for each user
+-   Utilize hashing for file checking (changes, etc)
+-   Create credential system to allow account-based interaction
+-   Create GitHub integration with accounts as to allow uploading/downloading/merging of repositories
+
++++ Tasks complete
++   Core GUI, separate from others - spawns others
